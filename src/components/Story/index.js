@@ -19,16 +19,16 @@ export function Story() {
 
             <div className="userElements" >
 
-                <div>
+                <div style={{marginLeft: 35}}>
                     <img className="imageUserStory" src="https://static1.purebreak.com.br/articles/1/10/88/31/@/487644-bruna-marquezine-aos-27-anos-veja-sua-700x700-3.jpg"  />
                 </div>
 
                 <span>brunamarquezine <MdVerified/></span>
             </div>
 
-            <div className="userElements" >
+            <div className="userElements closeFriends" >
 
-                <div>
+                <div style={{marginLeft: 25}}>
                     <img className="imageUserStory" src="https://proimpeachment.com.br/wp-content/uploads/2022/04/Altura-e-peso-da-Bruna-Biancardi.jpeg"  />
                 </div>
 
@@ -37,7 +37,7 @@ export function Story() {
 
             <div className="userElements" >
 
-                <div>
+                <div style={{marginLeft: 25}}>
                     <img className="imageUserStory" src="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/03d5d030c184b11d91b06a85fa72deb8~c5_720x720.jpeg?x-expires=1662818400&x-signature=c%2BSyINpHYARD0Dl%2FaaoxaREJkWI%3D"  />
                 </div>
 

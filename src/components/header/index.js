@@ -23,16 +23,16 @@ export function Header() {
                         <AiOutlineSearch />
                     </IconContext.Provider>
 
-                    <input placeholder="pesquisar" />
+                    <input placeholder="Search" />
                 </div>
 
                 <div className="menuIcon">
                     <IconContext.Provider value={{ size: '26px' }}>
+
                         <div>
                             <AiFillHome />
                         </div>
 
-                        
                         <div>
                             <RiMessengerLine />
                         </div>
@@ -49,8 +49,8 @@ export function Header() {
                             <FiHeart />
                         </div>
                         
-
                     </IconContext.Provider>
+                    <img className="img-user" src="https://avatars.githubusercontent.com/u/61008693?v=4" />
                 </div>
 
             </div>
